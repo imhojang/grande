@@ -1,0 +1,291 @@
+/*
+
+  Eric Meyers CSS Reset
+
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General */
+
+body {
+  text-decoration: none;
+  color: #939394;
+	font-family:courier, times;
+	font-weight: 600;
+}
+
+body a: hover {
+  color: #BFC3F0;
+}
+
+/* Date */
+
+#date  {
+  position: fixed;
+  top: 43%;
+  left: 26.6%;
+	font-weight: 400;
+	border-bottom: 1px solid #BFC3F0;
+	border-right:  1px solid #BFC3F0;
+	padding: 5px;
+	font-size: 14px;
+}
+
+#date:hover {
+  color: #BFC3F0;
+  cursor: default;
+
+}
+
+/* Top of the Page */
+
+#top {
+  color: white;
+  height: .1px;
+}
+
+/* h1 title */
+
+h1 a {
+  color: #4D4F4E;
+  text-decoration: none;
+}
+
+
+h1 a:hover {
+  color:#BFC3F0;
+}
+
+
+
+
+/*   Navigation   */
+
+.nav {
+  list-style-type: none;;
+  float: right;
+  margin-top: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #939394;
+}
+
+.nav a:hover {
+  color: #BFC3F0;
+}
+
+.nav li {
+  padding: 2px;
+  text-align: right;
+	font-weight: 400;
+}
+
+.headnav {
+  width: 105px;
+  height: 200px;
+  padding: 5px;
+  margin-left: 39.7%;
+  margin-right: auto;
+  border-bottom: 1px solid #BFC3F0;
+	border-right: 1px solid #BFC3F0;
+}
+
+.headnav {
+  position: fixed;
+  left: -8%;
+  top: 110px;
+}
+
+/*   Page    */
+
+
+.page {
+  margin-top: 1000px;
+  margin-bottom: 1000px;
+}
+
+#home {
+  margin-top: 0;
+}
+
+
+.page h2 {
+  width: 725px;
+  margin-left: 40%;
+  margin-right: auto;
+  border-bottom: 1px solid #BFC3F0;
+  color: #838385;
+  padding: 49px 0 2px 5px;
+}
+
+/* Content */
+
+.content {
+  border-bottom: 1px solid #BFC3F0;
+	border-right: 1px solid #BFC3F0;
+  color: #838385;
+  margin: 40px 0 0 40%;
+  padding-left: 10px;
+  line-height: 1.5em;
+  width: 725px;
+  text-transform: lowercase;
+}
+
+/* hit counter */
+
+.counter {
+  position: fixed;
+	left: 2px;
+	bottom: 0.01px;
+}
+
+/* Audio */
+
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px #838385;
+-moz-box-shadow: 15px 15px 20px #838385;
+box-shadow: 15px 15px 20px #838385;
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #838385;
+-webkit-box-shadow:  2px 2px 4px 0px #838385;
+box-shadow: 2px 2px 4px 0px #838385;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+
+/* Home */
+
+#home h2 span:hover {
+  color: #9368C7;
+  cursor: default;
+}
+
+#homemain {
+	padding-top: 200px;
+}
+
+/* About */
+
+.contact a {
+  text-decoration: none;
+  color: #939394;
+  cursor: pointer;
+}
+
+.contact a:hover {
+  color: #BFC3F0;
+}
+
+.contact {
+  padding-bottom: 50px;
+}
+
+.contact li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.subheading {
+  border-bottom: 1px solid #939394;
+  width: 8%;
+  padding: 10px 10px 10px 0;
+  margin: 30px auto 50px auto;
+  text-align: center;
+  cursor: default;
+}
+
+.content p, .contact {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about .content .divider {
+	padding: 40px;
+}
+
+/* Quotes */
+
+.quotelist {
+  padding: 200px 0;
+}
+
+.quotelist .author {
+  border-bottom: 1px solid #939394;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quotelist .quote, .author {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.quotelist .quote {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
