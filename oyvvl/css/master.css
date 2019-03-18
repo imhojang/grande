@@ -62,7 +62,7 @@ body {
 	font-weight: 600;
 }
 
-body a: hover {
+body a:hover {
   color: #BFC3F0;
 }
 
@@ -70,8 +70,8 @@ body a: hover {
 
 #date  {
   position: fixed;
-  top: 43%;
-  left: 26.6%;
+  top: 340px;
+  left: 370px;
 	font-weight: 400;
 	border-bottom: 1px solid #BFC3F0;
 	border-right:  1px solid #BFC3F0;
@@ -102,6 +102,7 @@ h1 a {
 
 h1 a:hover {
   color:#BFC3F0;
+	text-decoration: underline;
 }
 
 
@@ -122,6 +123,7 @@ h1 a:hover {
 
 .nav a:hover {
   color: #BFC3F0;
+	text-decoration: underline;
 }
 
 .nav li {
@@ -134,7 +136,7 @@ h1 a:hover {
   width: 105px;
   height: 200px;
   padding: 5px;
-  margin-left: 39.7%;
+  margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #BFC3F0;
 	border-right: 1px solid #BFC3F0;
@@ -142,7 +144,7 @@ h1 a:hover {
 
 .headnav {
   position: fixed;
-  left: -8%;
+  left: 450px;
   top: 110px;
 }
 
@@ -158,10 +160,14 @@ h1 a:hover {
   margin-top: 0;
 }
 
+.page h2:hover {
+	color:#BFC3F0;
+	cursor: default;
+}
 
 .page h2 {
-  width: 725px;
-  margin-left: 40%;
+  width: 732px;
+  margin-left: 585px;
   margin-right: auto;
   border-bottom: 1px solid #BFC3F0;
   color: #838385;
@@ -170,11 +176,16 @@ h1 a:hover {
 
 /* Content */
 
+.content li:hover, p:hover {
+	color: #BFC3F0;
+	cursor: default;
+}
+
 .content {
   border-bottom: 1px solid #BFC3F0;
 	border-right: 1px solid #BFC3F0;
   color: #838385;
-  margin: 40px 0 0 40%;
+  margin: 40px 0 0 587px;
   padding-left: 10px;
   line-height: 1.5em;
   width: 725px;
@@ -217,14 +228,17 @@ border-radius:7px 7px 7px 7px ;
 
 /* Home */
 
+#home img {
+	margin-left: 750px;
+	width: 400px;
+}
+
+
 #home h2 span:hover {
   color: #9368C7;
   cursor: default;
 }
 
-#homemain {
-	padding-top: 200px;
-}
 
 /* About */
 
@@ -236,6 +250,7 @@ border-radius:7px 7px 7px 7px ;
 
 .contact a:hover {
   color: #BFC3F0;
+	font-size: 18px;
 }
 
 .contact {
