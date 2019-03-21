@@ -90,13 +90,33 @@
 
       <section class="page" id= "life">
         <h2>Life</h2>
+        <h3>where i write a line per day about my life<h3>
 
         <div class="content">
 
-          <article>
-            <p class="date">march 18th 2019</p>
+          <ul class="journal">
+            <div class="day">
+              <li class="date">march 18th 2019</li>
+              <li class="line">I made this website</li>
+            </div>
 
-          </article>
+            <div class="day">
+              <li class="date">march 19th 2019</li>
+              <li class="line">I visited gangnam</li>
+            </div>
+
+            <div class="day">
+              <li class="date">march 20th 2019</li>
+              <li class="line">I stayed home and studied javascript</li>
+            </div>
+
+            <div class="day">
+              <li class="date">march 21th 2019</li>
+              <li class="line"></li>
+            </div>
+          </ul>
+
+
 
 
         </div>
@@ -105,6 +125,7 @@
 
       <section class="page" id="quotes">
         <h2>Quotes</h2>
+        <h3>collection of beautiful marriage of words</h3>
 
         <div class="content">
 
@@ -124,6 +145,11 @@
               <li class="author">Ellen Ullman, Close to the Machine: Technophilia and its Discontents</li>
               <li class="quote">"We think we are creating the system for our own purposes. We believe we are making it in our own image... But the computer is not really like us. It is a projection of a very slim part of ourselves: that portion devoted to logic, order, rule, and clarity."</li>
             </div>
+
+            <div class="quotelist">
+              <li class="author">Donald Knuth</li>
+              <li class="quote">"People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones."</li>
+            </div>
           </ul>
 
 
@@ -132,10 +158,40 @@
 
       <section class="page" id="programming">
         <h2>Programming</h2>
+        <h3>knowledge with power</h3>
 
+        <div class="content">
 
+          <div class="lesson">
+            <li class="hardtext">function scopes</li>
+            <li class="softtext">variables declared with "var" keyword has a global scope and can be accessed from outside of the local environment. <br> however, variables declared with "let" and "const" cannot be reached from outside of their little local environment, unless it is accessed from the nested inner environment!</li>
+          </div>
+
+          <div class="lesson">
+            <li class="hardtext">3 notations for functions</li>
+            <li class="softtext">(1) let / const / var  bindingName = function(parameter) { ... } ; <br> (2) function functionName (parameter) { ... } <br> (3) let / const / var bindingName = (parameter) => { ... } </li>
+          </div>
+
+          <div class="lesson">
+            <li class="hardtext">Call Stack</li>
+            <li class="softtext">Because a function has to jump back to the place that called it when it returns, the computer must remember the context from which the call happened. In one case, console.log has to return to the greet function when it is done. In the other case, it returns to the end of the program. <br><br> The place where the computer stores this context is the call stack. Every time a function is called, the current context is stored on top of this stack. When a function returns, it removes the top context from the stack and uses that context to continue execution.
+            </li>
+          </div>
+
+          <div class="lesson">
+            <li class="hardtext"><a href="https://eloquentjavascript.net/03_functions.html#h_1pGtRjrCUp">optional arguments</a></li>
+            <li class="softtext">javascript allows parameters more than it is required to be passed through a function. <br> it will pass in the first one and ignore the rest without passing an error. <br><br> f you write an = operator after a parameter, followed by an expression, the value of that expression will replace the argument when it is not given. </li>
+          </div>
+
+        </div>
       </section>
 
+      <!--
+      <div class="lesson">
+        <li class="hardtext"></li>
+        <li class="softtext"></li>
+      </div>
+      -->
       <div class="counter">
         <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/505392/t/3"></script>
       </div>
