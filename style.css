@@ -1,65 +1,40 @@
-<style>
+body {
+  background-color: black;
+}
 
+#stopwatch {
+  margin: 0 auto;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+}
 
+.buttons {
+  height: 70px;
+  border: 1px solid;
+  text-align: center;
+}
+#start, #log{
+  width: 200px;
+  height: 60px;
+  color: white;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 30px;
+  border: none;
+  text-align: center;
+}
+#start {
 
-  body {
-    margin:0;
-  }
-  h1 {
-    font-size:45px;
-    text-align: center;
-    border-bottom:1px solid gray;
-    margin:0;
-    padding:20px;
-  }
-  h2{
-    font-size: 1.2em;
-  }
-  #article ul{
+  background-color: #4CAF50;
+}
 
-    padding-left:18px;
-  }
-  #grid{
-    display:grid;
-    grid-template-columns: 200px 1fr;
-  }
-  #grid ol {
-    border-right:1px solid gray;
-    width:150px;
-    margin:0;
-    padding:20px;
-    padding-left:31px;
-  }
+#log {
+  background-color: silver;
+}
 
-  @media(max-width:540px){
-
-      a{
-        color: rgb(214, 122, 127);
-        text-decoration:none;
-      }
-    #grid{
-      display: block;
-    }
-    h1{
-      border-bottom: 0px;
-    }
-    #grid ol {
-      border-right:0px solid gray;
-      width:150px;
-      margin:0;
-      padding:20px;
-      padding-left:31px;
-    }
-  }
-  @media(min-width:540px){
-    a{
-      color: rgb(214, 122, 127);
-      text-decoration:none;
-     }
-  }
-  #article {
-    padding-left:22px;
-    color:  rgb(214, 122, 127);
-  }
-
-</style>
+#timelog {
+  font-size: 30px;
+  text-align: center;
+  color:white;
+}
